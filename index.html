@@ -1,0 +1,30 @@
+<?php
+	include 'header.html';
+?>
+      <div id="wrapper">
+              <p class="largeText">
+               Fun Translator | By Ryan Murphy
+              </p>
+              <div id="toBeTranslated">
+                  <form id="toBeTranslatedForm" action="fun-translator.php" method="POST" >
+                      <textarea id="toBeTranslatedTextArea"></textarea>
+                      <select id="translationOptions" class='select'></select>
+                      <input type="submit" value="Translate" class="submit"/>
+                  </form>
+              </div>
+              <div id="translatedArea">
+              	<h2 id="translatedInto"></h2>
+              	<div id="translatedText">
+				</div>              
+              </div>
+          
+          <div id="footer">
+              <ul>
+                  <li>Footer:</li>
+                  <li>@ - ryan@ryansmurphy.com</li>
+                  <li>&#169; - 2012</li>
+              </ul>
+          </div>
+      </div>
+  </body>
+</html>
